@@ -1,0 +1,23 @@
+digraph G {
+"world" -> "base_footprint"[label=" Broadcaster: /drone/ground_truth_to_tf\nAverage rate: 110.22\nBuffer length: 4.99\nMost recent transform: 283.761\nOldest transform: 278.771\n"];
+"base_link" -> "front_left_wheel"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 28.749\nBuffer length: 4.974\nMost recent transform: 283.765\nOldest transform: 278.791\n"];
+"base_link" -> "imu_link"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 30.181\nBuffer length: 4.97\nMost recent transform: 284.27\nOldest transform: 279.3\n"];
+"base_footprint" -> "base_footprint_top_plate_part"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 30.181\nBuffer length: 4.97\nMost recent transform: 284.27\nOldest transform: 279.3\n"];
+"base_link" -> "sonar_link"[label=" Broadcaster: /drone/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 284.26\nOldest transform: 279.28\n"];
+"world" -> "ar_marker"[label=" Broadcaster: /world_to_marker\nAverage rate: 98.054\nBuffer length: 8.526\nMost recent transform: 1399302687.67\nOldest transform: 1399302679.15\n"];
+"imu_link" -> "box_link"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 30.181\nBuffer length: 4.97\nMost recent transform: 284.27\nOldest transform: 279.3\n"];
+"base_link" -> "back_left_wheel"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 28.749\nBuffer length: 4.974\nMost recent transform: 283.765\nOldest transform: 278.791\n"];
+"base_link" -> "front_right_wheel"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 28.749\nBuffer length: 4.974\nMost recent transform: 283.765\nOldest transform: 278.791\n"];
+"base_link" -> "downward_cam_link"[label=" Broadcaster: /drone/robot_state_publisher\nAverage rate: 50.201\nBuffer length: 4.98\nMost recent transform: 284.26\nOldest transform: 279.28\n"];
+"base_footprint" -> "base_link"[label=" Broadcaster: /drone/ground_truth_to_tf\nAverage rate: 118.203\nBuffer length: 5.499\nMost recent transform: 284.27\nOldest transform: 278.771\n"];
+"base_footprint" -> "base_footprint_user_rail_part"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 30.181\nBuffer length: 4.97\nMost recent transform: 284.27\nOldest transform: 279.3\n"];
+"base_footprint" -> "base_footprint_front_bumper_part"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 30.181\nBuffer length: 4.97\nMost recent transform: 284.27\nOldest transform: 279.3\n"];
+"downward_cam_link" -> "downward_cam_optical_frame"[label=" Broadcaster: /drone/robot_state_publisher\nAverage rate: 57.741\nBuffer length: 5.49\nMost recent transform: 284.26\nOldest transform: 278.77\n"];
+"base_footprint" -> "base_stabilized"[label=" Broadcaster: /drone/ground_truth_to_tf\nAverage rate: 100.2\nBuffer length: 4.99\nMost recent transform: 283.761\nOldest transform: 278.771\n"];
+"base_footprint" -> "base_footprint_rear_bumper_part"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 30.181\nBuffer length: 4.97\nMost recent transform: 284.27\nOldest transform: 279.3\n"];
+"base_link" -> "back_right_wheel"[label=" Broadcaster: /husky/robot_state_publisher\nAverage rate: 28.749\nBuffer length: 4.974\nMost recent transform: 283.765\nOldest transform: 278.791\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 283.826"[ shape=plaintext ] ;
+}->"world";
+}

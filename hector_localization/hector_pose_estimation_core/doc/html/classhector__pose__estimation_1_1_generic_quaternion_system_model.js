@@ -1,0 +1,26 @@
+var classhector__pose__estimation_1_1_generic_quaternion_system_model =
+[
+    [ "GenericQuaternionSystemModel", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#ad8d1ad371b9e577ba0c9096b4e5b2553", null ],
+    [ "~GenericQuaternionSystemModel", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a059f9a3791ec257adc3b0e8cdbd56fc2", null ],
+    [ "getDerivative", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a76bfe930cae4473902a4bed19a346b49", null ],
+    [ "getGravity", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a931caf225ba04555c2bdc267df24626b", null ],
+    [ "getInputJacobian", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a77e7e8a71af341b2e764275bb6bdf94d", null ],
+    [ "getPrior", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a3a21fd2cbdbb5257fa67acb8a33b32c7", null ],
+    [ "getStateJacobian", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a261d007a9dd5524a58e3ccf2ecf4b75c", null ],
+    [ "getStatusFlags", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a4afd19b741654a8e25769c34b9514f9e", null ],
+    [ "getSystemNoise", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a0f1d9524792a78d050b3a9085d374d8e", null ],
+    [ "init", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a0bee1b44dc7597bdd0b352ebcb789e3c", null ],
+    [ "prepareUpdate", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#ad647181ba462c73ddd93cf44a9994ea3", null ],
+    [ "setGravity", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#ae08dcdb46f7c4499edf33e966d0b5daf", null ],
+    [ "acceleration", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a4cad4560d51894463e9eea8593d054c7", null ],
+    [ "acceleration_stddev_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a92c4bef6c5a2d71a7431de9393e35368", null ],
+    [ "accelerometer_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#afde32c4972138496721d26cd3e0c2da8", null ],
+    [ "angular_acceleration_stddev_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a6977ef010bfd66d7ef30e76eb9abe675", null ],
+    [ "gravity_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a97efa00844964d3255bd3d469b8a6966", null ],
+    [ "gyro_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#abfb2977079add3946e3baeba31398594", null ],
+    [ "imu_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a153ec658a4e1d60eca7e482ca7fad752", null ],
+    [ "R", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a2128e6066d8d2847f5a3f502227ae276", null ],
+    [ "rate", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a411c50bac42bbee86826d143070da011", null ],
+    [ "rate_stddev_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#a2e3c275074103ac2e6580ae5f1ab7832", null ],
+    [ "velocity_stddev_", "classhector__pose__estimation_1_1_generic_quaternion_system_model.html#af15df9101c69361f2d44f015573e997f", null ]
+];

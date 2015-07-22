@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+    <param name="use_sim_time" value="true" />
+
+    
+    
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find custom_objects_gazebo)/urdf/box.urdf -urdf -z 1 -model artag" />
+
+</launch>

@@ -1,0 +1,113 @@
+/**
+\mainpage Overview
+
+##Creating a Pose Estimation Node##
+1. Create a [PoseEstimation](@ref hector_pose_estimation::PoseEstimation)
+This is the main structure that will keep references to the state, systems, and measurements,
+as well as run the main update loop.
+
+2. Add a system model. This class holds the system model used in the update step. It is possible
+to implement your own, but [GenericQuaternionSystemModel](@ref hector_pose_estimation::GenericQuaternionSystemModel)
+and [GroundVehicleModel](@ref hector_pose_estimation::GroundVehicleModel)
+are included and cover many use cases. Both of these systems
+use sensor-only state updates ie. they use imu data rather than
+commands to make state predictions.
+
+3. Add [Measurements](@ref hector_pose_estimation::Measurement) to the PoseEstimation object with
+```pose_estimation_->addMeasurement```. There are a few useful Measurements already defined such as
+[GPS](@ref hector_pose_estimation::GPS), [Height](@ref hector_pose_estimation::Height), etc.
+
+4. Define subscribers and callbacks for each input to the System Model and for each measurement.
+The system won't make any predictions unless the inputs to the system model are receiving updates,
+but will only produce warnings if certain measurements time out. See example callbacks in
+[pose_estimation_node.cpp](https://github.com/Pleiades-Spiri/spiri_navigation/blob/master/spiri_pose_estimation/src/pose_estimation_node.cpp)
+on the Pleiades Github.
+
+5. Define publishers and a  publish function to be called whenever
+new system update data has been processed. See the documentation for
+[PoseEstimation](@ref hector_pose_estimation::PoseEstimation)
+for how to get the current estimate.
+
+
+###Measurements###
+__TODO How to create custom measurements or extend existing ones__
+
+###Systems###
+__TODO How to create custom system models or extend existing ones__
+
+
+##Extended Kalman Filter Primer##
+  
+__Disclaimer__
+
+Before getting into using this package for pose estimation,
+you need to have at least a basic understanding of the Extended Kalman Filter.
+This section is not even close to complete. For a less brief introduction,
+I suggest lectures 2-5 of Cyrill Stachniss class on robot mapping which
+has both [notes](http://ais.informatik.uni-freiburg.de/teaching/ws13/mapping/index_en.php)
+and [lectures](http://www.youtube.com/watch?v=jgOQuGAEnX8) available.
+There is also a high quality [Wikipedia entry](http://en.wikipedia.org/wiki/Extended_Kalman_filter) on EKFs.
+
+### EKF ###
+
+The Extended Kalman Filter is a powerful technique to recursively
+compute the state of a system at time \f$t\f$, \f$x_t\f$ given
+observations \f$z_{1:t}\f$ and commands \f$u_{1:t}\f$. As with
+other bayes filters, the algorithm is divided into an update step
+which uses new commands to make a prediction about the state,
+and a correction step, which uses the observations to make corrections
+to the predicted state.
+
+The key trick of the Kalman filter is to assume that all the noise is 
+gaussian, and all the update rules are linear. This lets the algorithm
+update it's belief about the world efficiently, since gaussians can be
+combined by efficient operations on their means and covariances.
+
+The key trick of the Extended Kalman filter is to make non-linear update
+rules linear using the first Taylor Expansion, ie by using the Jacobian
+at the mean estimate.
+
+...fill me in more...
+
+###Algorithm###
+
+\f$EKF\left(\mu_{t-1}, \Sigma_{t-1}, u_t, z_t \right):\f$
+
+// Update
+
+1.\f$\overline{\mu}_t = g\left(u_t, \mu_{t-1}\right)\f$
+2.\f$\overline{\Sigma}_t = G_t\Sigma_{t-1}G_t^T + R_t \f$
+
+// Correction
+    
+3.\f$K_t = \overline{\Sigma}_tH_t^T\left(H_t\overline{\Sigma}_tH_t^T + Q_t\right)^{-1}\f$
+4.\f$\mu_t = \overline{\mu}_t + K_t\left(z_t - h\left(\overline{\mu}_t\right)\right)\f$
+5.\f$ \Sigma_t = \left(I - K_tH_t\right)\overline{Sigma}_t\f$    
+6.return \f$ \mu_t, \Sigma_t \f$
+
+### Notation ###
+Keep this notation in mind, as it is used fairly consistently
+for variable naming throughout the code.
+
+Basic Symbols | -
+------------- | -------------
+\f$t\f$       | current time 
+\f$x_t\f$     | state at time t
+\f$z_t\f$     | observation at time t
+\f$u_t\f$     | command at time t
+\f$\mu_t\f$   | mean belief at time t
+\f$\Sigma_t\f$| covariance matrix of belief at time t
+
+Update        | -
+------------- | -------------
+\f$g\left(u, \mu\right)\f$ | function mapping a command and prediction to a new prediction
+\f$G\f$        | Jacobian of \f$g\f$
+\f$R\f$        | State transition gaussian noise
+
+Correction     | -
+-------------- | -------------
+\f$K\f$        | Kalman gain. Controls confidence in prediction vs confidence in sensor corrections.
+\f$Q\f$        | Observation gaussian noise
+\f$h\left(\mu\right)\f$ | function mapping a prediction to an observation
+
+*/

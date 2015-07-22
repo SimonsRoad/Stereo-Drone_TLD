@@ -1,0 +1,13 @@
+<map id="hector_pose_estimation::Measurement" name="hector_pose_estimation::Measurement">
+<area shape="rect" id="node2" href="$classhector__pose__estimation_1_1_measurement__.html" title="hector_pose_estimation\l::Measurement_\&lt; ConcreteModel \&gt;" alt="" coords="214,5,442,46"/>
+<area shape="rect" id="node3" href="$classhector__pose__estimation_1_1_pose_update.html" title="hector_pose_estimation\l::PoseUpdate" alt="" coords="248,70,408,111"/>
+<area shape="rect" id="node4" href="$classhector__pose__estimation_1_1_measurement__.html" title="hector_pose_estimation\l::Measurement_\&lt; BaroModel \&gt;" alt="" coords="227,135,429,177"/>
+<area shape="rect" id="node6" href="$classhector__pose__estimation_1_1_measurement__.html" title="hector_pose_estimation\l::Measurement_\&lt; GPSModel \&gt;" alt="" coords="227,201,429,242"/>
+<area shape="rect" id="node8" href="$classhector__pose__estimation_1_1_measurement__.html" title="hector_pose_estimation\l::Measurement_\&lt; HeadingModel \&gt;" alt="" coords="217,266,439,307"/>
+<area shape="rect" id="node9" href="$classhector__pose__estimation_1_1_measurement__.html" title="hector_pose_estimation\l::Measurement_\&lt; HeightModel \&gt;" alt="" coords="221,331,435,373"/>
+<area shape="rect" id="node11" href="$classhector__pose__estimation_1_1_measurement__.html" title="hector_pose_estimation\l::Measurement_\&lt; MagneticModel \&gt;" alt="" coords="214,397,442,438"/>
+<area shape="rect" id="node5" href="$classhector__pose__estimation_1_1_baro.html" title="hector_pose_estimation\l::Baro" alt="" coords="509,135,669,177"/>
+<area shape="rect" id="node7" href="$classhector__pose__estimation_1_1_g_p_s.html" title="hector_pose_estimation::GPS" alt="" coords="491,208,687,235"/>
+<area shape="rect" id="node10" href="$classhector__pose__estimation_1_1_height.html" title="hector_pose_estimation\l::Height" alt="" coords="509,331,669,373"/>
+<area shape="rect" id="node12" href="$classhector__pose__estimation_1_1_magnetic.html" title="hector_pose_estimation\l::Magnetic" alt="" coords="509,397,669,438"/>
+</map>

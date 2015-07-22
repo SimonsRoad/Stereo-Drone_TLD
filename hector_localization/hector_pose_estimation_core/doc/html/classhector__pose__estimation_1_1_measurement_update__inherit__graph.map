@@ -1,0 +1,7 @@
+<map id="hector_pose_estimation::MeasurementUpdate" name="hector_pose_estimation::MeasurementUpdate">
+<area shape="rect" id="node2" href="$structhector__pose__estimation_1_1_g_p_s_update.html" title="hector_pose_estimation\l::GPSUpdate" alt="" coords="243,5,403,46"/>
+<area shape="rect" id="node3" href="$classhector__pose__estimation_1_1_pose_update_1_1_update.html" title="hector_pose_estimation\l::PoseUpdate::Update" alt="" coords="243,70,403,111"/>
+<area shape="rect" id="node4" href="$classhector__pose__estimation_1_1_update__.html" title="hector_pose_estimation\l::Update_\&lt; MeasurementModel \&gt;" alt="" coords="214,135,431,177"/>
+<area shape="rect" id="node5" href="$classhector__pose__estimation_1_1_update__.html" title="hector_pose_estimation\l::Update_\&lt; BaroModel \&gt;" alt="" coords="240,201,405,242"/>
+<area shape="rect" id="node6" href="$classhector__pose__estimation_1_1_baro_update.html" title="hector_pose_estimation\l::BaroUpdate" alt="" coords="480,201,640,242"/>
+</map>

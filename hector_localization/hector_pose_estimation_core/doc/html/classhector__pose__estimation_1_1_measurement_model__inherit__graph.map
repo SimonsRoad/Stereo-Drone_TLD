@@ -1,0 +1,27 @@
+<map id="hector_pose_estimation::MeasurementModel" name="hector_pose_estimation::MeasurementModel">
+<area shape="rect" id="node3" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; Derived,\l _Dimension, _SubDimension \&gt;" alt="" coords="447,5,659,61"/>
+<area shape="rect" id="node4" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; GPSModel, 4 \&gt;" alt="" coords="427,85,680,126"/>
+<area shape="rect" id="node6" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; Gravity\lModel, 3 \&gt;" alt="" coords="451,149,656,205"/>
+<area shape="rect" id="node8" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; Heading\lModel, 1 \&gt;" alt="" coords="448,229,659,285"/>
+<area shape="rect" id="node10" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; HeightModel, 1 \&gt;" alt="" coords="422,309,685,350"/>
+<area shape="rect" id="node13" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; Magnetic\lModel, 3 \&gt;" alt="" coords="445,373,661,429"/>
+<area shape="rect" id="node15" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; Position\lXYModel, 2 \&gt;" alt="" coords="448,453,659,509"/>
+<area shape="rect" id="node17" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; Position\lZModel, 1 \&gt;" alt="" coords="448,533,659,589"/>
+<area shape="rect" id="node19" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; RateModel,\l 3, 3 \&gt;" alt="" coords="438,613,669,669"/>
+<area shape="rect" id="node21" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; TwistModel, 6 \&gt;" alt="" coords="425,693,682,734"/>
+<area shape="rect" id="node23" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; YawModel, 1 \&gt;" alt="" coords="428,758,679,799"/>
+<area shape="rect" id="node25" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; ZeroRate\lModel, 1, 3 \&gt;" alt="" coords="445,823,662,879"/>
+<area shape="rect" id="node2" href="$classhector__pose__estimation_1_1_model.html" title="hector_pose_estimation\l::Model" alt="" coords="5,421,165,462"/>
+<area shape="rect" id="node5" href="$classhector__pose__estimation_1_1_g_p_s_model.html" title="hector_pose_estimation\l::GPSModel" alt="" coords="733,85,893,126"/>
+<area shape="rect" id="node7" href="$classhector__pose__estimation_1_1_gravity_model.html" title="hector_pose_estimation\l::GravityModel" alt="" coords="733,157,893,198"/>
+<area shape="rect" id="node9" href="$classhector__pose__estimation_1_1_heading_model.html" title="hector_pose_estimation\l::HeadingModel" alt="" coords="733,237,893,278"/>
+<area shape="rect" id="node11" href="$classhector__pose__estimation_1_1_height_model.html" title="hector_pose_estimation\l::HeightModel" alt="" coords="733,309,893,350"/>
+<area shape="rect" id="node12" href="$classhector__pose__estimation_1_1_baro_model.html" title="hector_pose_estimation\l::BaroModel" alt="" coords="941,309,1101,350"/>
+<area shape="rect" id="node14" href="$classhector__pose__estimation_1_1_magnetic_model.html" title="hector_pose_estimation\l::MagneticModel" alt="" coords="733,381,893,422"/>
+<area shape="rect" id="node16" href="$classhector__pose__estimation_1_1_position_x_y_model.html" title="hector_pose_estimation\l::PositionXYModel" alt="" coords="733,461,893,502"/>
+<area shape="rect" id="node18" href="$classhector__pose__estimation_1_1_position_z_model.html" title="hector_pose_estimation\l::PositionZModel" alt="" coords="733,541,893,582"/>
+<area shape="rect" id="node20" href="$classhector__pose__estimation_1_1_rate_model.html" title="hector_pose_estimation\l::RateModel" alt="" coords="733,621,893,662"/>
+<area shape="rect" id="node22" href="$classhector__pose__estimation_1_1_twist_model.html" title="hector_pose_estimation\l::TwistModel" alt="" coords="733,693,893,734"/>
+<area shape="rect" id="node24" href="$classhector__pose__estimation_1_1_yaw_model.html" title="hector_pose_estimation\l::YawModel" alt="" coords="733,758,893,799"/>
+<area shape="rect" id="node26" href="$classhector__pose__estimation_1_1_zero_rate_model.html" title="hector_pose_estimation\l::ZeroRateModel" alt="" coords="733,830,893,871"/>
+</map>

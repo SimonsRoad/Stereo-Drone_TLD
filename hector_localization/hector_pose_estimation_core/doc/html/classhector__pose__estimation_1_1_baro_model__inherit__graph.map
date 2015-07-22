@@ -1,0 +1,6 @@
+<map id="hector_pose_estimation::BaroModel" name="hector_pose_estimation::BaroModel">
+<area shape="rect" id="node2" href="$classhector__pose__estimation_1_1_height_model.html" title="hector_pose_estimation\l::HeightModel" alt="" coords="56,278,215,319"/>
+<area shape="rect" id="node3" href="$classhector__pose__estimation_1_1_measurement_model__.html" title="hector_pose_estimation\l::MeasurementModel_\&lt; HeightModel, 1 \&gt;" alt="" coords="5,187,267,229"/>
+<area shape="rect" id="node4" href="$classhector__pose__estimation_1_1_measurement_model.html" title="hector_pose_estimation\l::MeasurementModel" alt="" coords="56,97,215,138"/>
+<area shape="rect" id="node5" href="$classhector__pose__estimation_1_1_model.html" title="hector_pose_estimation\l::Model" alt="" coords="56,6,215,47"/>
+</map>

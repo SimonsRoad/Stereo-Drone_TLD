@@ -1,0 +1,1 @@
+ ROBOT_INITIAL_POSE="-x 0 -y 2" roslaunch husky_gazebo husky_empty_world_hector.launch 

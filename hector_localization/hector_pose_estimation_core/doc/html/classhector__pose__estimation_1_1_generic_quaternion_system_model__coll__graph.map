@@ -1,0 +1,13 @@
+<map id="hector_pose_estimation::GenericQuaternionSystemModel" name="hector_pose_estimation::GenericQuaternionSystemModel">
+<area shape="rect" id="node2" href="$classhector__pose__estimation_1_1_time_continuous_system_model__.html" title="hector_pose_estimation\l::TimeContinuousSystemModel\l_\&lt; GenericQuaternionSystemModel \&gt;" alt="" coords="1574,5,1815,61"/>
+<area shape="rect" id="node3" href="$classhector__pose__estimation_1_1_system_model__.html" title="hector_pose_estimation\l::SystemModel_\&lt; GenericQuaternion\lSystemModel, 0 \&gt;" alt="" coords="1237,5,1475,61"/>
+<area shape="rect" id="node4" href="$classhector__pose__estimation_1_1_sub_system_model__.html" title="hector_pose_estimation\l::SubSystemModel_\&lt; _SubDimension \&gt;" alt="" coords="931,13,1187,54"/>
+<area shape="rect" id="node5" href="$classhector__pose__estimation_1_1_system_model.html" title="hector_pose_estimation\l::SystemModel" alt="" coords="720,13,880,54"/>
+<area shape="rect" id="node6" href="$classhector__pose__estimation_1_1_model.html" title="hector_pose_estimation\l::Model" alt="" coords="509,13,669,54"/>
+<area shape="rect" id="node7" href="$classhector__pose__estimation_1_1_parameter_list.html" title="hector_pose_estimation\l::ParameterList" alt="" coords="224,13,384,54"/>
+<area shape="rect" id="node9" href="$classhector__pose__estimation_1_1_column_vector__.html" title="hector_pose_estimation\l::ColumnVector_\&lt; 3 \&gt;" alt="" coords="1615,85,1775,126"/>
+<area shape="rect" id="node11" href="$classhector__pose__estimation_1_1_matrix__.html" title="hector_pose_estimation\l::Matrix_\&lt; 3, 3 \&gt;" alt="" coords="1615,150,1775,191"/>
+<area shape="rect" id="node14" href="$classhector__pose__estimation_1_1_alias_t.html" title="hector_pose_estimation\l::AliasT\&lt; double \&gt;" alt="" coords="1615,219,1775,261"/>
+<area shape="rect" id="node15" href="$classhector__pose__estimation_1_1_alias.html" title="hector_pose_estimation\l::Alias" alt="" coords="1276,267,1436,309"/>
+<area shape="rect" id="node16" href="$classhector__pose__estimation_1_1_parameter.html" title="hector_pose_estimation\l::Parameter" alt="" coords="979,267,1139,309"/>
+</map>

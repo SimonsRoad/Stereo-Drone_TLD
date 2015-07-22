@@ -1,0 +1,5 @@
+<map id="hector_pose_estimation::PoseEstimation" name="hector_pose_estimation::PoseEstimation">
+<area shape="rect" id="node2" href="$classhector__pose__estimation_1_1_collection.html" title="hector_pose_estimation\l::Collection\&lt; System \&gt;" alt="" coords="21,5,181,46"/>
+<area shape="rect" id="node3" href="$classhector__pose__estimation_1_1_collection.html" title="hector_pose_estimation\l::Collection\&lt; Measurement \&gt;" alt="" coords="6,70,197,111"/>
+<area shape="rect" id="node4" href="$classhector__pose__estimation_1_1_collection.html" title="hector_pose_estimation\l::Collection\&lt; Input \&gt;" alt="" coords="21,135,181,177"/>
+</map>

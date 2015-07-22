@@ -1,0 +1,37 @@
+\form#0:$(x_1,y_1)$
+\form#1:$(x_2,y_2)$
+\form#2:$\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}$
+\form#3:\[ |I_2|=\left| \int_{0}^T \psi(t) \left\{ u(a,t)- \int_{\gamma(t)}^a \frac{d\theta}{k(\theta,t)} \int_{a}^\theta c(\xi)u_t(\xi,t)\,d\xi \right\} dt \right| \]
+\form#4:$t$
+\form#5:$x_t$
+\form#6:$z_(1:t)$
+\form#7:$u_(1:t)$
+\form#8:$z_{1:t}$
+\form#9:$u_{1:t}$
+\form#10:$z_t$
+\form#11:$u_t$
+\form#12:$\mu_t$
+\form#13:$\left(\mu_{t-1}, \Sigma_{t-1}, u_t, z_t \right):$
+\form#14:$\bar{\mu_t} = g(u_t, mu_{t-1}$
+\form#15:$\bar{\mu_t} = g(u_t, mu_{t-1})$
+\form#16:$EKF\left(\mu_{t-1}, \Sigma_{t-1}, u_t, z_t \right):$
+\form#17:$\bar{\Sigma_t} = G_t\Sigma_{t-1}G_t^T + R_t $
+\form#18:$\overline{\mu_t} = g(u_t, mu_{t-1})$
+\form#19:$\overline{\Sigma_t} = G_t\Sigma_{t-1}G_t^T + R_t $
+\form#20:$\overline{\mu}_t = g\left(u_t, mu_{t-1}\right)$
+\form#21:$\overline{\Sigma}_t = G_t\Sigma_{t-1}G_t^T + R_t $
+\form#22:$K_t = \overline{\Sigma}_tH_t^T\left(H_t\overline{\Sigma}_tH_t^T + Q_t\right)^{-1} 4. $
+\form#23:$K_t = \overline{\Sigma}_tH_t^T\left(H_t\overline{\Sigma}_tH_t^T + Q_t\right)^{-1}$
+\form#24:$\mu_t = \overline{\mu}_t + K_t\left(z_t - h\left(\overline{\mu}_t\right)\right)$
+\form#25:$ \Sigma_t = \left(I - K_tH_t\right)\overline{Sigma}_t$
+\form#26:$ return \mu_t, \Sigma_t $
+\form#27:$ \mu_t, \Sigma_t $
+\form#28:$\overline{\mu}_t = g\left(u_t, \mu_{t-1}\right)$
+\form#29:$\Sigma_t$
+\form#30:$g\left(u, \mu\right)$
+\form#31:$G$
+\form#32:$g$
+\form#33:$R$
+\form#34:$K$
+\form#35:$Q$
+\form#36:$h\left(\mu\right)$

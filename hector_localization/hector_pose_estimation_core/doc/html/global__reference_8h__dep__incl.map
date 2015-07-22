@@ -1,0 +1,9 @@
+<map id="/home/arnold/Spiri/spiri_deps_ws/src/hector_localization/hector_pose_estimation_core/include/hector_pose_estimation/global_reference.h" name="/home/arnold/Spiri/spiri_deps_ws/src/hector_localization/hector_pose_estimation_core/include/hector_pose_estimation/global_reference.h">
+<area shape="rect" id="node2" href="$gps_8h.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/include/hector\l_pose_estimation/measurements/gps.h" alt="" coords="9,147,260,232"/>
+<area shape="rect" id="node3" href="$gps_8cpp.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/src/measurements/gps.cpp" alt="" coords="5,295,287,366"/>
+<area shape="rect" id="node4" href="$magnetic_8h.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/include/hector\l_pose_estimation/measurements\l/magnetic.h" alt="" coords="335,139,549,239"/>
+<area shape="rect" id="node6" href="$global__reference_8cpp.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/src/global\l_reference.cpp" alt="" coords="575,147,756,232"/>
+<area shape="rect" id="node7" href="$height_8cpp.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/src/measurements\l/height.cpp" alt="" coords="781,147,1013,232"/>
+<area shape="rect" id="node8" href="$pose__estimation_8cpp.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/src/pose\l_estimation.cpp" alt="" coords="1038,147,1212,232"/>
+<area shape="rect" id="node5" href="$magnetic_8cpp.html" title="/home/arnold/Spiri\l/spiri_deps_ws/src/hector\l_localization/hector_pose\l_estimation_core/src/measurements\l/magnetic.cpp" alt="" coords="326,288,559,373"/>
+</map>

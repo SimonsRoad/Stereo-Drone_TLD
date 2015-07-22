@@ -1,0 +1,27 @@
+var classhector__pose__estimation_1_1_global_reference =
+[
+    [ "Heading", "structhector__pose__estimation_1_1_global_reference_1_1_heading.html", "structhector__pose__estimation_1_1_global_reference_1_1_heading" ],
+    [ "Position", "structhector__pose__estimation_1_1_global_reference_1_1_position.html", "structhector__pose__estimation_1_1_global_reference_1_1_position" ],
+    [ "Radius", "structhector__pose__estimation_1_1_global_reference_1_1_radius.html", "structhector__pose__estimation_1_1_global_reference_1_1_radius" ],
+    [ "fromAltitude", "classhector__pose__estimation_1_1_global_reference.html#a9ffa0b010d93fbe7e2b1c694deb667ca", null ],
+    [ "fromNorthEast", "classhector__pose__estimation_1_1_global_reference.html#a9720fbecafb5db1a144b802d106e06dc", null ],
+    [ "fromWGS84", "classhector__pose__estimation_1_1_global_reference.html#a03cdbc3739c288fb479958bcf667d35e", null ],
+    [ "hasAltitude", "classhector__pose__estimation_1_1_global_reference.html#a145b3bd486628c4fffee23d69ff73354", null ],
+    [ "hasHeading", "classhector__pose__estimation_1_1_global_reference.html#a669324da9fa5cb8aa7bc3ca89b84cef3", null ],
+    [ "hasPosition", "classhector__pose__estimation_1_1_global_reference.html#a92dcc1c8d300796c020eeae38734049d", null ],
+    [ "heading", "classhector__pose__estimation_1_1_global_reference.html#ac8580dd9fa2d1f1b7a032a4bd2555dbe", null ],
+    [ "parameters", "classhector__pose__estimation_1_1_global_reference.html#ac8244d87380fedc480c1fadb6d54c50b", null ],
+    [ "position", "classhector__pose__estimation_1_1_global_reference.html#a9b0d36fad17f1b9bcd2b8b3665a864a4", null ],
+    [ "radius", "classhector__pose__estimation_1_1_global_reference.html#a0cca33f9a1b35301541b6b966e70eb64", null ],
+    [ "reset", "classhector__pose__estimation_1_1_global_reference.html#a89ffa0033c6b6973fc7f5db347a88ab6", null ],
+    [ "setAltitude", "classhector__pose__estimation_1_1_global_reference.html#a23bc3513686a65536d344b874e1f45d6", null ],
+    [ "setCurrentAltitude", "classhector__pose__estimation_1_1_global_reference.html#a308b9eb7f38abf2763b1000a75f63f8e", null ],
+    [ "setCurrentHeading", "classhector__pose__estimation_1_1_global_reference.html#a37cf1bff370752ce5964a8514f19cdcf", null ],
+    [ "setCurrentPosition", "classhector__pose__estimation_1_1_global_reference.html#adb9558337b5edeb250bce1850b5591a0", null ],
+    [ "setHeading", "classhector__pose__estimation_1_1_global_reference.html#ade34a5a0a97bba7895e186944f090e1c", null ],
+    [ "setPosition", "classhector__pose__estimation_1_1_global_reference.html#a436e5c72722ef3075db64c640d59e59e", null ],
+    [ "toAltitude", "classhector__pose__estimation_1_1_global_reference.html#a90981307d59d22dfe286f03e00fb959f", null ],
+    [ "toNorthEast", "classhector__pose__estimation_1_1_global_reference.html#aa0dda94e5ceacc51c5e96cb4d3542d7f", null ],
+    [ "toWGS84", "classhector__pose__estimation_1_1_global_reference.html#a524a746fc3f997b937514667a8e91956", null ],
+    [ "updated", "classhector__pose__estimation_1_1_global_reference.html#aec06515c666cd8df3c05f9198883fbe5", null ]
+];

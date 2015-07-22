@@ -1,0 +1,4 @@
+var structhector__pose__estimation_1_1_parameter_registry_r_o_s_1_1_handler_3_01std_1_1vector_3_01_t_01_4_01_4 =
+[
+    [ "operator()", "structhector__pose__estimation_1_1_parameter_registry_r_o_s_1_1_handler_3_01std_1_1vector_3_01_t_01_4_01_4.html#abe4c6b1998fb4425d8a35e7ef897c396", null ]
+];

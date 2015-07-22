@@ -1,0 +1,17 @@
+<map id="/home/arnold/Spiri/spiri_deps_ws/src/hector_localization/hector_pose_estimation_core/include/hector_pose_estimation/measurements/magnetic.h" name="/home/arnold/Spiri/spiri_deps_ws/src/hector_localization/hector_pose_estimation_core/include/hector_pose_estimation/measurements/magnetic.h">
+<area shape="rect" id="node2" href="$measurement_8h.html" title="hector_pose_estimation\l/measurement.h" alt="" coords="1960,155,2119,197"/>
+<area shape="rect" id="node36" href="$global__reference_8h.html" title="hector_pose_estimation\l/global_reference.h" alt="" coords="753,337,912,378"/>
+<area shape="rect" id="node3" href="$measurement__model_8h.html" title="hector_pose_estimation\l/measurement_model.h" alt="" coords="1585,246,1744,287"/>
+<area shape="rect" id="node11" href="$types_8h.html" title="hector_pose_estimation\l/types.h" alt="" coords="2213,518,2372,559"/>
+<area shape="rect" id="node30" href="$measurement__update_8h.html" title="hector_pose_estimation\l/measurement_update.h" alt="" coords="2027,337,2189,378"/>
+<area shape="rect" id="node32" href="$queue_8h.html" title="hector_pose_estimation\l/queue.h" alt="" coords="1879,246,2037,287"/>
+<area shape="rect" id="node34" href="$filter_8h.html" title="hector_pose_estimation\l/filter.h" alt="" coords="2213,337,2372,378"/>
+<area shape="rect" id="node35" href="$measurement_8inl.html" title="measurement.inl" alt="" coords="2062,253,2180,280"/>
+<area shape="rect" id="node4" href="$model_8h.html" title="hector_pose_estimation\l/model.h" alt="" coords="1527,337,1685,378"/>
+<area shape="rect" id="node28" href="$substate_8h.html" title="hector_pose_estimation\l/substate.h" alt="" coords="1343,337,1501,378"/>
+<area shape="rect" id="node29" href="$input_8h.html" title="hector_pose_estimation\l/input.h" alt="" coords="1644,427,1803,469"/>
+<area shape="rect" id="node5" href="$parameters_8h.html" title="hector_pose_estimation\l/parameters.h" alt="" coords="288,427,447,469"/>
+<area shape="rect" id="node19" href="$state_8h.html" title="hector_pose_estimation\l/state.h" alt="" coords="1343,427,1501,469"/>
+<area shape="rect" id="node12" href="$matrix_8h.html" title="hector_pose_estimation\l/matrix.h" alt="" coords="2448,609,2607,650"/>
+<area shape="rect" id="node15" href="$collection_8h.html" title="hector_pose_estimation\l/collection.h" alt="" coords="2213,609,2372,650"/>
+</map>

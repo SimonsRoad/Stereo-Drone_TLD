@@ -1,0 +1,54 @@
+<robot name="simple_box">
+  <link name="my_box">
+    <inertial>
+      <origin xyz="5 0 0" /> 
+      <mass value="1.0" />
+      <inertia  ixx="1.0" ixy="0.0"  ixz="0.0"  iyy="100.0"  iyz="0.0"  izz="1.0" />
+    </inertial>
+    <visual>
+      <origin xyz="5 0 0"/>
+      <geometry>
+        <box size="4 4 0.01" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="5 0 0"/>
+      <geometry>
+        <box size="4 4 0.01" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="artag" type="fixed">
+  	
+	<parent link="my_box"/>
+	<child link="artag_link"/>
+	<origin xyz="5 0 0.01"/>
+  </joint>
+    <link name="artag_link">
+    <inertial>
+      <origin xyz="0 0 0" /> 
+      <mass value="0.0001" />
+      <inertia  ixx="0.0001" ixy="0.0"  ixz="0.0"  iyy="0.00001"  iyz="0.0"  izz="0.00001" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.5 0.5 0.01" />
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0"/>
+      <geometry>
+        <box size="0.5 0.5 0.01" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="artag_link">
+    <material>custom_objects_gazebo/artag</material>
+    <turnGravityOff>False</turnGravityOff>
+  </gazebo>
+  <gazebo reference="my_box">
+    <material>Gazebo/White</material>
+    <turnGravityOff>False</turnGravityOff>
+  </gazebo>
+</robot>
