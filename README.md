@@ -8,8 +8,8 @@
 
 ## Installation
 - Download shadow package and Drone_TLD. Drone_TLD is the rosified verison of the [OpenTLD](https://github.com/zk00006/OpenTLD) by Zdenek Kalal.   
-`git clone https://github.com/HALLAB-Halifax/Drone_TLD.git`
-- catkin_make the shadow package.
+`git clone https://github.com/vigneshba/Stereo-Drone_TLD.git`
+- catkin_make the package.
 - You need to add ROS support to MATLAB for Drone_TLD to work. Refer to [ROS support for MATLAB](http://www.mathworks.com/hardware-support/robot-operating-system.html?refresh=true) to install it.
 
 ## Get it running
